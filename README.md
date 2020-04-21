@@ -1,6 +1,8 @@
 Installing and using the Strimzi Operator with minikube
+
 Install minikube
 Make certain you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
+
 If you do not already have a hypervisor installed, install one of these now:
 • KVM, which also uses QEMU
 • VirtualBox
@@ -204,24 +206,7 @@ items:
       certificates:
       - |
         -----BEGIN CERTIFICATE-----
-        MIIDLTCCAhWgAwIBAgIJAPdagdf45X7zMA0GCSqGSIb3DQEBCwUAMC0xEzARBgNV
-        BAoMCmlvLnN0cmltemkxFjAUBgNVBAMMDWNsdXN0ZXItY2EgdjAwHhcNMjAwNDE1
-        MTQ0MDI4WhcNMjEwNDE1MTQ0MDI4WjAtMRMwEQYDVQQKDAppby5zdHJpbXppMRYw
-        FAYDVQQDDA1jbHVzdGVyLWNhIHYwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
-        CgKCAQEAxs76beb0fNze2Qo5LP83us2VNX49PPnEfOizSpl2SgaXzp3MP5WpFGZL
-        fPNZzJjie1MYFQy2ivBYAIB/D486j8YZ6J/l3BCZ2HHXC+xcBzL8AvUBoUN+yf1G
-        w9ZNMBXGcjHwXT5WCRSnUQHYlzIWbgUAm/Bk6DxNm31yf4udrkG9cYNvgAYPA5eY
-        UXOA4Pfffuo/n2ITJtuZda5FLzmZBvYuVE6ctDAE6InPrgUmPWWgbs/L7Pk0HAVx
-        bTIupJ175hCpOTaYEJFAjW2pBYiETwrhENymZtmttsCrhF1CZKCzeknNrJ5x2ZNx
-        Z0byPTuFHnnJH8cE3Xz4BzSgDIg/CQIDAQABo1AwTjAdBgNVHQ4EFgQU1qzZhNtW
-        ZObgH+eDvnKowaHZNb8wHwYDVR0jBBgwFoAU1qzZhNtWZObgH+eDvnKowaHZNb8w
-        DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAA6vgdjg/L4Pt5UHu0G5S
-        N77HHC8QNLIqutzb9BX89nuMappJW4QKztJMgyyy+XTxxEbm/I3ZZ6fzowJ+Nyh0
-        4yYfME/eKtnToUHpRFRrxfHGX4txMBhtgL4Zx4snWUPPSur73xbPDak+BEbqy2Ij
-        3+JuXDXqXxoXtbRcOp8A5r5XnsdYev015aN/XVwlbBt4NlNZL2rp6J5jg72ZVJLW
-        EUsWRRBcyjF7TfWeIaP4WENH/NMzum0OMKUTr2DJXE6CQ+8aNH0mYkMMSFItvQvL
-        YEFj9fiAyb4Vlx/QiTMlVx1h7IL4GqqPnj26tTGfQNH+uILgSCP0g/GFNDzdUS0E
-        VA==
+        MIIDLTCCAhWgAwIBAgIJAPdagdf...
         -----END CERTIFICATE-----
       type: tls
     - addresses:
